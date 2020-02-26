@@ -28,27 +28,22 @@ public class ReadConfig {
     }
 
     public String getBrowser(){
-        String browser = pro.getProperty("browser");
-        return null;
+        return pro.getProperty("browser");
     }
     public String getUrl(){
-        String url = pro.getProperty("url");
-        return url;
+        return pro.getProperty("url");
     }
 
     public String getChromePath(){
-        String chromePath = pro.getProperty("chromePath");
-        return chromePath;
+        return pro.getProperty("chromePath");
     }
 
     public String getIePath(){
-        String iePath = pro.getProperty("iePath");
-        return iePath;
+        return pro.getProperty("iePath");
     }
 
     public String getFirefoxPath(){
-        String firefoxPath = pro.getProperty("firefoxPath");
-        return firefoxPath;
+        return pro.getProperty("firefoxPath");
     }
 
 }

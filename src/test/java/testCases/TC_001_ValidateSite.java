@@ -8,11 +8,11 @@ public class TC_001_ValidateSite extends BaseTest {
     @Test
     public void ValidateSite(){
 
-        driver.get(url);
+
         if(driver.getTitle().equals("My Store")){
 
-            Assert.assertTrue(true);
-            System.out.println("Passed!");
+           Assert.assertTrue(true);
+           System.out.println("Passed!");
         }
         else {
             Assert.assertTrue(false);

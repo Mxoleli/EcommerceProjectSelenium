@@ -24,24 +24,27 @@ public class BaseTest {
     public String url = readConfig.getUrl() ;
     public String browser  = readConfig.getBrowser();
 
-    @BeforeClass
-    public void initialization(String br){
 
-        if(br.equals("chrome")){
-            System.setProperty("weddriver.chrome.driver",readConfig.getChromePath()); //ToDo: read path from the config file
+    @BeforeClass
+    public WebDriver initialization(){
+
+        if(browser.equals("chrome")){
+            System.setProperty("webdriver.chrome.driver",readConfig.getChromePath()); //ToDo: read path from the config file
             driver = new ChromeDriver();
         }
-        else if(br.equals("firefox")){
-            System.setProperty("weddriver.firefox.driver",readConfig.getFirefoxPath()); //ToDo: read path from the config file
+        else if(browser.equals("firefox")){
+            System.setProperty("webdriver.gecko.driver",readConfig.getFirefoxPath()); //ToDo: read path from the config file
             driver = new FirefoxDriver();
         }
-        else if(br.equals("ie")){
-            System.setProperty("weddriver.ie.driver",readConfig.getIePath()); //ToDo: read path from the config file
+        else if(browser.equals("ie")){
+            System.setProperty("webdriver.ie.driver",readConfig.getIePath()); //ToDo: read path from the config file
             driver = new InternetExplorerDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
+
+        return driver;
     }
     @AfterClass
     public void teardown(){
