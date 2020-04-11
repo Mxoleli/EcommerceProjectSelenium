@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41be1ab-32b0-4964-bd56-6ba11747557a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SharedData/loginData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_001_ValidateHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_002_loginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/testCases/TC_002_loginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.03.04.19.18.48.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.03.04.19.24.51.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.04.10.18.33.55.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObjects/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-CommerceProject.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/E-CommerceProject.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_001_ValidateSite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Reporting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Reporting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pagesObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_001_ValidateHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_001_ValidateHomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCases/TC_002_loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCases/TC_002_loginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/TC_001_ValidateSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/TC_001_ValidateSite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Reporting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Reporting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.02.26.19.46.47.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.04.10.19.12.39.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/TC_001_ValidateSite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testCases/TC_002_loginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testCases/TC_002_loginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.03.04.19.18.48.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.03.04.19.24.51.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.04.10.18.33.55.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Ecommerce Site Project-Report-2020.04.10.19.12.39.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +78,7 @@
       <recent name="C:\Users\mxoleli.cwati\Documents\2020_STUDIES\PROJECTS\SELENIUM\src\test\java\testCases" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_001_ValidateSite.ValidateSite">
+  <component name="RunManager" selected="TestNG.C:/Users/mxoleli.cwati/Documents/2020_STUDIES/PROJECTS/SELENIUM/testng.xml">
     <configuration name="C:/Users/mxoleli.cwati/Documents/2020_STUDIES/PROJECTS/SELENIUM/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EcommerceProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -114,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001_ValidateSite (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_002_loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EcommerceProject" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +115,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TC_001_ValidateSite" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC_002_loginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -131,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001_ValidateSite (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_002_loginTest.LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EcommerceProject" />
       <extension name="coverage">
         <pattern>
@@ -140,15 +132,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TC_001_ValidateSite" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC_002_loginTest" />
+      <option name="METHOD_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001_ValidateSite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_002_loginTest.LoginTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EcommerceProject" />
       <extension name="coverage">
         <pattern>
@@ -157,15 +150,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TC_001_ValidateSite" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC_002_loginTest" />
+      <option name="METHOD_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_001_ValidateSite.ValidateSite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC_002_loginTest.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EcommerceProject" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +168,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.TC_001_ValidateSite" />
-      <option name="METHOD_NAME" value="ValidateSite" />
+      <option name="MAIN_CLASS_NAME" value="testCases.TC_002_loginTest" />
+      <option name="METHOD_NAME" value="LoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_001_ValidateSite.ValidateSite" />
         <item itemvalue="TestNG.C:/Users/mxoleli.cwati/Documents/2020_STUDIES/PROJECTS/SELENIUM/testng.xml" />
-        <item itemvalue="TestNG.TC_001_ValidateSite" />
-        <item itemvalue="TestNG.TC_001_ValidateSite (2)" />
-        <item itemvalue="TestNG.TC_001_ValidateSite (1)" />
+        <item itemvalue="TestNG.TC_002_loginTest.LoginTest" />
+        <item itemvalue="TestNG.TC_002_loginTest" />
+        <item itemvalue="TestNG.TC_002_loginTest.LoginTest (2)" />
+        <item itemvalue="TestNG.TC_002_loginTest.LoginTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +252,7 @@
       <workItem from="1583937380679" duration="2753000" />
       <workItem from="1583996006354" duration="51000" />
       <workItem from="1586523307399" duration="6657000" />
-      <workItem from="1586595947117" duration="5694000" />
+      <workItem from="1586595947117" duration="15110000" />
     </task>
     <task id="LOCAL-00001" summary="My First commit">
       <created>1582702191342</created>
@@ -281,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582739509874</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixing tests and Adding more tests">
+      <created>1586611168161</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586611168161</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +292,8 @@
     <MESSAGE value="My First commit" />
     <MESSAGE value="Created Base class and set up config.properties" />
     <MESSAGE value="Added extent Reporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added extent Reporting" />
+    <MESSAGE value="Fixing tests and Adding more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing tests and Adding more tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1324" y="76" key="#&lt;default&gt;" timestamp="1582704810125">
@@ -307,10 +309,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="507" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1582646914171" />
-    <state x="-2497" y="158" key="CommitChangelistDialog2" timestamp="1586611136868">
+    <state x="-2497" y="158" key="CommitChangelistDialog2" timestamp="1586611167308">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
-    <state x="-2497" y="158" key="CommitChangelistDialog2/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586611136868" />
+    <state x="-2497" y="158" key="CommitChangelistDialog2/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586611167308" />
     <state x="-1428" y="130" key="CommitChangelistDialog2/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1582739509090" />
     <state x="-1234" y="229" key="FileChooserDialogImpl" timestamp="1583996054880">
       <screen x="-1920" y="11" width="1920" height="1050" />
@@ -322,88 +324,88 @@
     <state x="-1234" y="229" key="FileChooserDialogImpl/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583912191363" />
     <state x="-1234" y="229" key="FileChooserDialogImpl/0.0.1536.834/-3840.58.1920.1050/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583996054880" />
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583133280699" />
-    <state width="1237" height="338" key="GridCell.Tab.0.bottom" timestamp="1586540582634">
+    <state width="1237" height="338" key="GridCell.Tab.0.bottom" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.0.bottom/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582634" />
-    <state width="1237" height="232" key="GridCell.Tab.0.bottom/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979159" />
+    <state width="1237" height="338" key="GridCell.Tab.0.bottom/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.0.bottom/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.0.bottom/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296592" />
     <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693976" />
     <state width="1493" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338203178" />
-    <state width="1237" height="338" key="GridCell.Tab.0.center" timestamp="1586540582634">
+    <state width="1237" height="338" key="GridCell.Tab.0.center" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.0.center/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582634" />
-    <state width="1237" height="232" key="GridCell.Tab.0.center/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979159" />
+    <state width="1237" height="338" key="GridCell.Tab.0.center/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.0.center/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.0.center/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296592" />
     <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693975" />
     <state width="1493" height="221" key="GridCell.Tab.0.center/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338203178" />
-    <state width="1237" height="338" key="GridCell.Tab.0.left" timestamp="1586540582634">
+    <state width="1237" height="338" key="GridCell.Tab.0.left" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.0.left/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582634" />
-    <state width="1237" height="232" key="GridCell.Tab.0.left/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979159" />
+    <state width="1237" height="338" key="GridCell.Tab.0.left/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901058" />
     <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.0.left/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.0.left/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296592" />
     <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693975" />
     <state width="1493" height="221" key="GridCell.Tab.0.left/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338203177" />
-    <state width="1237" height="338" key="GridCell.Tab.0.right" timestamp="1586540582634">
+    <state width="1237" height="338" key="GridCell.Tab.0.right" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.0.right/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582634" />
-    <state width="1237" height="232" key="GridCell.Tab.0.right/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979159" />
+    <state width="1237" height="338" key="GridCell.Tab.0.right/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.0.right/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.0.right/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296592" />
     <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693975" />
     <state width="1493" height="221" key="GridCell.Tab.0.right/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338203178" />
-    <state width="1237" height="338" key="GridCell.Tab.1.bottom" timestamp="1586540582635">
+    <state width="1237" height="338" key="GridCell.Tab.1.bottom" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.1.bottom/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582635" />
-    <state width="1237" height="338" key="GridCell.Tab.1.bottom/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979153" />
+    <state width="1237" height="338" key="GridCell.Tab.1.bottom/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.1.bottom/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143278" />
     <state width="1877" height="403" key="GridCell.Tab.1.bottom/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.1.bottom/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296593" />
     <state width="1493" height="201" key="GridCell.Tab.1.bottom/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693976" />
     <state width="1493" height="221" key="GridCell.Tab.1.bottom/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338202989" />
-    <state width="1237" height="338" key="GridCell.Tab.1.center" timestamp="1586540582634">
+    <state width="1237" height="338" key="GridCell.Tab.1.center" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.1.center/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582634" />
-    <state width="1237" height="338" key="GridCell.Tab.1.center/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979153" />
+    <state width="1237" height="338" key="GridCell.Tab.1.center/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.1.center/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.1.center/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.1.center/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296593" />
     <state width="1493" height="201" key="GridCell.Tab.1.center/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693976" />
     <state width="1493" height="221" key="GridCell.Tab.1.center/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338202989" />
-    <state width="1237" height="338" key="GridCell.Tab.1.left" timestamp="1586540582634">
+    <state width="1237" height="338" key="GridCell.Tab.1.left" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.1.left/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582634" />
-    <state width="1237" height="338" key="GridCell.Tab.1.left/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979153" />
+    <state width="1237" height="338" key="GridCell.Tab.1.left/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.1.left/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.1.left/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
     <state width="981" height="342" key="GridCell.Tab.1.left/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-3200.58.1024.789" timestamp="1582706296592" />
     <state width="1493" height="201" key="GridCell.Tab.1.left/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@0.0.1536.834" timestamp="1583256693976" />
     <state width="1493" height="221" key="GridCell.Tab.1.left/0.0.1536.834/-3200.58.1280.994/-1920.11.1920.1050@0.0.1536.834" timestamp="1583338202989" />
-    <state width="1237" height="338" key="GridCell.Tab.1.right" timestamp="1586540582635">
+    <state width="1237" height="338" key="GridCell.Tab.1.right" timestamp="1586623375932">
       <screen x="-2646" y="45" width="1280" height="994" />
     </state>
     <state width="1237" height="338" key="GridCell.Tab.1.right/-1366.34.1366.730/-2646.45.1280.994/0.0.1536.834@-2646.45.1280.994" timestamp="1586540582635" />
-    <state width="1237" height="338" key="GridCell.Tab.1.right/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1583346979153" />
+    <state width="1237" height="338" key="GridCell.Tab.1.right/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586623375932" />
     <state width="1493" height="271" key="GridCell.Tab.1.right/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583342901059" />
     <state width="1493" height="256" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050/-3200.47.1280.994@0.0.1536.834" timestamp="1582657143277" />
     <state width="1877" height="403" key="GridCell.Tab.1.right/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1583247890612" />
@@ -414,9 +416,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@0.0.1536.834" timestamp="1583867181386" />
-    <state x="-1368" y="258" key="Vcs.Push.Dialog.v2" timestamp="1582739511509">
-      <screen x="-1920" y="11" width="1920" height="1050" />
+    <state x="-2278" y="279" key="Vcs.Push.Dialog.v2" timestamp="1586611174767">
+      <screen x="-2646" y="45" width="1280" height="994" />
     </state>
+    <state x="-2278" y="279" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1366.34.1366.738/-2646.45.1280.994@-2646.45.1280.994" timestamp="1586611174767" />
     <state x="-1368" y="258" key="Vcs.Push.Dialog.v2/0.0.1536.834/-3200.58.1024.789/-1920.11.1920.1050@-1920.11.1920.1050" timestamp="1582739511509" />
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583256135189">
       <screen x="0" y="0" width="1536" height="834" />

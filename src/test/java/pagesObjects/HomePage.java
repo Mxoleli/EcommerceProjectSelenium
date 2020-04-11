@@ -26,14 +26,14 @@ public class HomePage {
     @CacheLookup
     WebElement slideshow;
 
-    public void validateTittle() {
-        if(ldriver.getTitle().equals("My Store1")){
+    public void validateTittle(String tittle) {
+        if(ldriver.getTitle().equals(tittle)){
 
             Assert.assertTrue(true);
             System.out.println("Passed!");
         }
         else {
-            Assert.fail();
+            Assert.assertTrue(false);
             System.out.println("Failed!"); //ToDo: Capture screenshot
         }
 
@@ -43,7 +43,7 @@ public class HomePage {
             Assert.assertTrue(true);
         } else {
 
-            Assert.fail();
+            Assert.assertTrue(false);
             System.out.println("Logo is not displayed on this site.");
         }
 
@@ -53,7 +53,7 @@ public class HomePage {
         if (slideshow.isDisplayed()) {
             Assert.assertTrue(true);
         } else {
-            Assert.fail();
+            Assert.assertTrue(false);
             System.out.println("Slideshow is not displayed on this site.");
         }
 

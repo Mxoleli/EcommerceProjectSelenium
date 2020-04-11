@@ -8,7 +8,8 @@
     <test name="All Suites" >
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.TC_001_ValidateHomePage" />
+            <class name="testCases.TC_001_ValidateHomePageTest" />
+            <class name="testCases.TC_002_loginTest" />
 
         </classes>
     </test>

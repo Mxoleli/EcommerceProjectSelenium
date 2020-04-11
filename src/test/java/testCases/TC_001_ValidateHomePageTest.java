@@ -5,17 +5,17 @@ import pagesObjects.HomePage;
 
 import java.io.IOException;
 
-public class TC_001_ValidateHomePage extends BaseTest {
+public class TC_001_ValidateHomePageTest extends BaseTest {
 
     @Test
-    public void ValidateHomePage() {
+    public void ValidateHomePageTest() {
 
         HomePage homePage = new HomePage(driver);
 
         logger.info("Hello this is an info message");
 
         logger.info("Verify title");
-        homePage.validateTittle();
+        homePage.validateTittle("My Store");
 
         logger.info("Verify logo");
         homePage.validateLogo();
