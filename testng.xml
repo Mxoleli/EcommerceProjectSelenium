@@ -3,14 +3,12 @@
 
 <suite name="Ecommerce Site Project" verbose="1" >
     <listeners>
-
         <listener class-name="utilities.Reporting"/>
-
     </listeners>
     <test name="All Suites" >
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.TC_001_ValidateSite" />
+            <class name="testCases.TC_001_ValidateHomePage" />
 
         </classes>
     </test>
