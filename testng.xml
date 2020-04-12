@@ -10,6 +10,7 @@
         <classes>
             <class name="testCases.TC_001_ValidateHomePageTest" />
             <class name="testCases.TC_002_loginTest" />
+            <class name="testCases.TC_003_SearchForProductTest" />
 
         </classes>
     </test>

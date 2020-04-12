@@ -8,18 +8,21 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import java.util.List;
+
 public class LoginPage {
 
     WebDriver ldriver;
 
     HomePage homePage = new HomePage(ldriver);
+
     public LoginPage(WebDriver rdriver) {
 
         ldriver = rdriver;
         PageFactory.initElements(rdriver, this);  // Constructor
     }
 
-    @FindBy(how = How.CLASS_NAME, using = "header_user_info")
+    @FindBy(how = How.XPATH, using = "//a[@class='login']")
     @CacheLookup
     WebElement signInBtn;
 
@@ -39,10 +42,14 @@ public class LoginPage {
     @CacheLookup
     WebElement errorMessage;
 
+    //My Account Elements
+    @FindBy(how = How.XPATH, using = "//ul[@class='myaccount-link-list']")
+    @CacheLookup
+    WebElement orderHistoryDetails;
 
 
     public void clickSignInBtn() {
-         signInBtn.click();
+        signInBtn.click();
     }
 
     public void getEmail(String eml) {
@@ -53,36 +60,52 @@ public class LoginPage {
     public void getPassWord(String pwrd) {
         passWordTxt.clear();
         passWordTxt.sendKeys(pwrd);
+
     }
 
-    public void submitLogin(){
+    public void submitLogin() {
         submitLoginBtn.click();
+    }
+
+    public void myAccountList() {
+        if(orderHistoryDetails.isDisplayed()){
+
+            Assert.assertTrue(true);
+        }
+        else{
+
+            Assert.assertTrue(false);
+        }
+
     }
 
     //Methods to login
 
-    public void loginWithIncorrectDetails(String email, String password){   //Incorrect login details
+    public void loginWithIncorrectDetails(String email, String password) {   //Incorrect login details
         clickSignInBtn();
-       // homePage.validateTittle("Login - My Store");
+        // homePage.validateTittle("Login - My Store");
         getEmail(email);
         getPassWord(password);
         submitLoginBtn.click();
 
-        if (errorMessage.isDisplayed()){
+        if (errorMessage.isDisplayed()) {
             Assert.assertTrue(true);
-        }
-        else {
+        } else {
             Assert.assertTrue(false);
             System.out.println("Error not displayed");
         }
 
     }
 
-    public void loginWithCorrectDetils(String email, String password){
-        //clickSignInBtn();
+    public void loginWithCorrectDetils(String email, String password) throws InterruptedException {
+        clickSignInBtn();
         getEmail(email);
         getPassWord(password);
         submitLoginBtn.click();
+        Thread.sleep(2000);
+        myAccountList();
     }
+
+
 
 }
