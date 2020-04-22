@@ -11,10 +11,7 @@ public class TC_003_SearchForProductTest extends BaseTest{
     public void LoginWithIncorrectDetailsTest() throws InterruptedException {
 
         SearchFunctionalityPage sfp = new SearchFunctionalityPage(driver);
-
         sfp.searchForProduct();
-
     }
-
 
 }

@@ -31,13 +31,10 @@ public class SearchFunctionalityPage {
 
         searchtxt.sendKeys("Printed Dresses");
     }
-
     public void clickSearchBtn() {
 
         searchbtn.click();
     }
-
-
     public void searchForProduct(){
 
         enterSearchText();
